@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px gray;
+}
+
+h1 {
+  color: #333;
+}
+
+.kandidat {
+  display: inline-block;
+  margin: 10px;
+  padding: 15px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px gray;
+}
+
+.kandidat img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  background: #28a745;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background: #218838;
+}
+
+#hasil-suara {
+  list-style: none;
+  padding: 0;
+}
